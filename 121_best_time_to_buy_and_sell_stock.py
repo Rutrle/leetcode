@@ -1,6 +1,6 @@
 def best_time_to_sell_buy(prices):
     '''
-    
+
     uses a sliding window (two pointers)
     O(n)
     :type prices: List[int]
@@ -22,6 +22,6 @@ def best_time_to_sell_buy(prices):
     return max_profit
 
 
-prices = [7, 1, 5, 3, 6, 4]
+my_prices = [7, 1, 5, 3, 6, 4]
 
-print(best_time_to_sell_buy(prices))
+print(best_time_to_sell_buy(my_prices))
