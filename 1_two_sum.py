@@ -17,6 +17,7 @@ def two_sum(nums, target):
         else:
             hashmap[str(num)] = i
 
+    return False
 
 my_list = [2, 7, 11, 15]
 print(two_sum(my_list, 9))
